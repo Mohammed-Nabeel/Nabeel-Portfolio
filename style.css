@@ -1,0 +1,171 @@
+*{
+    box-sizing:border-box;
+}
+
+html{
+    font-size:16px;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    padding:0;
+    margin:0;
+    background-color: #0d192d;
+    color:#ced7f3;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+    color:#90fcdc;
+}
+
+h3{
+    font-size: 1.17rem;
+}
+
+h4{
+    font-size: 1rem;
+}
+
+h5{
+    font-size: 0.83rem;
+}
+
+h6{
+    font-size: 0.67rem;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+}
+
+#logo img{
+    width:100%;
+    height:100%;
+}
+
+header{
+    top:0;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #0d192d;
+    border-bottom: #90fcdc;
+}
+
+nav{
+    padding:0;
+    margin: 0;
+    height:100%;
+    width:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+nav ul{
+    padding:0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    list-style: none;
+}
+
+nav li{
+    margin:1rem;
+}
+nav a{
+    color:#90fcdc;
+    text-decoration: none;
+}
+
+main,footer{
+    padding:1rem;
+}
+
+#banner{
+    height: 500px;
+    width:100%;
+    margin: 0;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    background-image: url('./banner.jpg');
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+#banner span{
+    color:#90fcdc;
+}
+details {
+    border: 1px solid cadetblue;;
+    border-radius: 4px;
+    margin:1rem;
+}
+
+summary {
+    font-weight: bold;
+    color:cadetblue;
+    padding:1rem;
+}
+
+details p,details i{
+    margin:1rem;
+}
+
+details i{
+    display:block;
+}
+
+#contact a{
+    color:#90fcdc;
+}
+
+footer .go-up{
+    cursor: pointer;
+    margin:0 auto;
+    width: 25px;
+    height: auto;
+    background-color:#0d192d;
+    border:1px solid #90fcdc;
+    border-radius: 50%;
+    text-align: center;
+}
+footer .go-up-arrow{
+    color:#ced7f3;
+    text-decoration: none;
+}
+footer .go-up-arrow:active{
+    color:#90fcdc;
+}
+
+@media only screen and (max-width:768px){
+    header{
+        flex-direction: column;
+    }
+    nav ul{
+        margin-top:1rem;
+    }
+    nav li{
+        margin:0 0.5rem;
+    }
+}
