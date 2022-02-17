@@ -132,6 +132,11 @@ details p,details i{
     margin:1rem;
 }
 
+.project-image {
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
 details i{
     display:block;
 }
